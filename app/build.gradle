@@ -43,5 +43,6 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
-    implement 'com.squareup.retrofit2:retrofit:com.squareup.retrofit2:retrofit:2.9.0'
+    implement 'com.squareup.retrofit2:retrofit:com.squareup.retrofit2:retrofit:2.9.0' // retrofit
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0' // converter-gson
 }
