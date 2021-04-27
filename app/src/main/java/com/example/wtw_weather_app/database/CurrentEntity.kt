@@ -12,8 +12,6 @@ data class CurrentEntity(
     @ColumnInfo var feels_like: Double = 0.0,
     @ColumnInfo var humidity: Int = 0,
     @ColumnInfo var clouds: Int = 0,
-    @ColumnInfo var rain: Int = 0,
-    @ColumnInfo var snow: Int = 0,
     @ColumnInfo var weather_id: Int = 0,
     @ColumnInfo var main: String = "",
     @ColumnInfo var description: String = "",
