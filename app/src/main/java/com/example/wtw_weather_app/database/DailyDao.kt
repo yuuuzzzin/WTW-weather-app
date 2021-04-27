@@ -6,14 +6,14 @@ import androidx.room.*
 interface DailyDao {
     @Transaction
     @Query("SELECT * FROM dailyENTITY")
-    fun getCurrent(): List<DailyEntity>
+    fun getDaily(): List<DailyEntity>
 
     @Insert
-    fun insertCurrent(vararg dailyENTITY: DailyEntity)
+    fun insertDaily(vararg dailyENTITY: DailyEntity)
 
     @Delete
-    fun deleteCurrent(vararg dailyENTITY: DailyEntity)
+    fun deleteDaily(vararg dailyENTITY: DailyEntity)
 
     @Update(onConflict = OnConflictStrategy.REPLACE)
-    fun updateCurrent(vararg dailyENTITY: DailyEntity)
+    fun updateDaily(vararg dailyENTITY: DailyEntity)
 }
