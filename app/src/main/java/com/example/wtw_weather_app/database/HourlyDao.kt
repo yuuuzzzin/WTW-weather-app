@@ -6,14 +6,14 @@ import androidx.room.*
 interface HourlyDao {
     @Transaction
     @Query("SELECT * FROM hourlyENTITY")
-    fun getCurrent(): List<HourlyEntity>
+    fun getHourly(): List<HourlyEntity>
 
     @Insert
-    fun insertCurrent(vararg hourlyENTITY: HourlyEntity)
+    fun insertHourly(vararg hourlyENTITY: HourlyEntity)
 
     @Delete
-    fun deleteCurrent(vararg hourlyENTITY: HourlyEntity)
+    fun deleteHourly(vararg hourlyENTITY: HourlyEntity)
 
     @Update(onConflict = OnConflictStrategy.REPLACE)
-    fun updateCurrent(vararg hourlyENTITY: HourlyEntity)
+    fun updateHourly(vararg hourlyENTITY: HourlyEntity)
 }
