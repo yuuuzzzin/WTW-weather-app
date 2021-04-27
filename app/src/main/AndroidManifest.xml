@@ -3,6 +3,11 @@
     package="com.example.wtw_weather_app">
     
     <uses-permission android:name="android.permission.INTERNET"/>
+    <!--    Location    -->
+    <!--    정확한 위치    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!--    대략적인 위치    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -11,13 +16,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.WTWweatherapp">
-        <activity android:name=".MainActivity">
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>
