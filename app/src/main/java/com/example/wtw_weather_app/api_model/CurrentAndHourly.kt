@@ -6,7 +6,5 @@ data class CurrentAndHourly(
     var feels_like: Double,
     var humidity: Int,
     var clouds: Int,
-    var rain: Int,
-    var snow: Int,
     var weather: ArrayList<Weather>
 )
