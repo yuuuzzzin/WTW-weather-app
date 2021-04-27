@@ -94,7 +94,7 @@ class MainActivity : AppCompatActivity() {
 
         getDatabaseAndSetView()
 
-//        refreshButton.setOnClickListener {
+//        refresh_button.setOnClickListener {
 //            getWeatherApi()
 //        }
     }
@@ -109,7 +109,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getWeatherApi() {
-        GlobalScope.launch {
+        GlobalScope.launch(Dispatchers.Default) {
             withContext(Dispatchers.Default) {
                 location = locationManager.requestLocationPermissions()
                 println("위치!!!!!!!"+ location?.latitude.toString()+ location?.longitude.toString())
@@ -145,7 +145,7 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(applicationContext, "There is no location information.", Toast.LENGTH_SHORT).show()
             }
 
-            //refreshButton.isClickable = true
+            //refresh_button.isClickable = true
         }
     }
 
@@ -189,6 +189,7 @@ class MainActivity : AppCompatActivity() {
     fun initViewFunctionOfDailyData() {
         setDailyData = { model ->
             println("daily 실행")
+
             model.get(0)?.let { item ->
                 maxandminTempText.text = "${(item.temp.min).toInt()}${"℃"} / ${(item.temp.max).toInt()}${"℃"}"
             }
