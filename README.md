@@ -30,4 +30,5 @@
 
 ### ✏️ 실행 화면
 --------------------------------------
-![wtw](https://user-images.githubusercontent.com/57751515/116548614-71a30c00-a92f-11eb-8aa1-75c450a55017.gif)
+<img src="https://user-images.githubusercontent.com/57751515/116554726-7e772e00-a936-11eb-80eb-be22b90aff82.jpg" width="43%">![wtw](https://user-images.githubusercontent.com/57751515/116548614-71a30c00-a92f-11eb-8aa1-75c450a55017.gif)
+
