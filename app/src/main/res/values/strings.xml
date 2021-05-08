@@ -2,5 +2,5 @@
     <string name="app_name">WTW-weather-app</string>
 
     <string name="base_url">https://api.openweathermap.org/</string>
-    <string name="app_id">56cd8c3eee787a1ff832f40ceac2fbe5</string>
+    <string name="app_id"></string>
 </resources>
