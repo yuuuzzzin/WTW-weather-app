@@ -94,9 +94,9 @@ class MainActivity : AppCompatActivity() {
 
         getDatabaseAndSetView()
 
-//        refresh_button.setOnClickListener {
-//            getWeatherApi()
-//        }
+        refresh_button.setOnClickListener {
+            getWeatherApi()
+        }
     }
 
     private fun getDatabaseAndSetView() {
