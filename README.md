@@ -32,5 +32,5 @@
 
 ### ✏️ 실행 화면
 --------------------------------------
-<img src="https://user-images.githubusercontent.com/57751515/120882468-23121d00-c613-11eb-9bf7-e15a96bad9b7.png" width="43%">![wtw](https://user-images.githubusercontent.com/57751515/116548614-71a30c00-a92f-11eb-8aa1-75c450a55017.gif)
+<img src="https://user-images.githubusercontent.com/57751515/120882506-581e6f80-c613-11eb-816f-d556b377a29b.png" width="43%">![wtw](https://user-images.githubusercontent.com/57751515/116548614-71a30c00-a92f-11eb-8aa1-75c450a55017.gif)
 
