@@ -11,6 +11,10 @@
 ![database](https://img.shields.io/badge/database-Room-d9fff8)
 ![image](https://img.shields.io/badge/image-Glide-edfcd2)
 
+### ✏️ 실행 화면
+--------------------------------------
+<img src="https://user-images.githubusercontent.com/57751515/120882526-6e2c3000-c613-11eb-8f7a-7b794c3ac99d.png" width="43%">![wtw](https://user-images.githubusercontent.com/57751515/116548614-71a30c00-a92f-11eb-8aa1-75c450a55017.gif)
+
 ### ✏️ 기능
 --------------------------------------
 - 사용자의 현재 위치를 받아와 출력
@@ -30,7 +34,5 @@
 - 데이터베이스 : `Room`
 - 이미지 처리 : `Glide`
 
-### ✏️ 실행 화면
---------------------------------------
-<img src="https://user-images.githubusercontent.com/57751515/120882526-6e2c3000-c613-11eb-8f7a-7b794c3ac99d.png" width="43%">![wtw](https://user-images.githubusercontent.com/57751515/116548614-71a30c00-a92f-11eb-8aa1-75c450a55017.gif)
+
 
