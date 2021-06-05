@@ -8,7 +8,7 @@
 ![image](https://img.shields.io/badge/image-Glide-edfcd2)
 ## 위치 기반 날씨 어플리케이션 '날씨어때?'
 
-<img src="https://user-images.githubusercontent.com/57751515/120882526-6e2c3000-c613-11eb-8f7a-7b794c3ac99d.png" width="27.7%">![wtw](https://user-images.githubusercontent.com/57751515/116548614-71a30c00-a92f-11eb-8aa1-75c450a55017.gif)
+<img src="https://user-images.githubusercontent.com/57751515/120882526-6e2c3000-c613-11eb-8f7a-7b794c3ac99d.png" width="263%">![wtw](https://user-images.githubusercontent.com/57751515/116548614-71a30c00-a92f-11eb-8aa1-75c450a55017.gif)
 
 ### :iphone: 화면 구성
 
