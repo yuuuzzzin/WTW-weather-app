@@ -8,11 +8,11 @@
 ![image](https://img.shields.io/badge/image-Glide-edfcd2)
 ## 위치 기반 날씨 어플리케이션 '날씨어때?'
 
-<img src="https://user-images.githubusercontent.com/57751515/120882526-6e2c3000-c613-11eb-8f7a-7b794c3ac99d.png" width="43%">![wtw](https://user-images.githubusercontent.com/57751515/116548614-71a30c00-a92f-11eb-8aa1-75c450a55017.gif)
+<img src="https://user-images.githubusercontent.com/57751515/120882526-6e2c3000-c613-11eb-8f7a-7b794c3ac99d.png" width="20.38%">![wtw](https://user-images.githubusercontent.com/57751515/116548614-71a30c00-a92f-11eb-8aa1-75c450a55017.gif)
 
 ### :iphone: 화면 구성
 
-<img src="https://user-images.githubusercontent.com/57751515/120883685-9323a180-c619-11eb-945e-feffcce4f649.png" width="43%">
+<img src="https://user-images.githubusercontent.com/57751515/120883685-9323a180-c619-11eb-945e-feffcce4f649.png" width="20.38%">
 
     1. 사용자의 현재 위치를 받아와 상단에 보여주는 텍스트뷰
     2. 현재 날씨와 날씨 이미지, 최고/최저 온도 레이아웃
