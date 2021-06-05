@@ -28,7 +28,7 @@
 - 날씨 정보를 Room을 이용해 Database에 저장
 - Glide로 날씨별 이미지 로드
 
-### App Version
+### 🔧 App Version
 targetSdkVersion 30 / minSdkVersion 19
 
 ### 📁 프로젝트 구조
