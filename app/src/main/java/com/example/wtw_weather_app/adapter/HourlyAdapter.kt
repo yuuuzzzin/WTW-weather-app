@@ -6,22 +6,24 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.bumptech.glide.load.DecodeFormat
 import com.bumptech.glide.load.engine.DiskCacheStrategy
+import com.bumptech.glide.request.RequestOptions
 import com.example.wtw_weather_app.R
-import com.example.wtw_weather_app.set.HourlySet
-import kotlinx.android.synthetic.main.item_hourly.view.*
+import com.example.wtw_weather_app.model.entity.DailySet
+import kotlinx.android.synthetic.main.item_daily.view.*
 
-class HourlyAdapter : RecyclerView.Adapter<HourlyAdapter.ItemViewHolder>() {
-    var itemList = ArrayList<HourlySet>()
+class DailyAdapter : RecyclerView.Adapter<DailyAdapter.ItemViewHolder>() {
+    var itemList = ArrayList<DailySet>()
     lateinit var context: Context
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemViewHolder {
-        var view = LayoutInflater.from(parent.context).inflate(R.layout.item_hourly, parent, false)
+        var view = LayoutInflater.from(parent.context).inflate(R.layout.item_daily, parent, false)
         this.context = parent.context
         return ItemViewHolder(view)
     }
 
-    override fun onBindViewHolder(holder: HourlyAdapter.ItemViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: DailyAdapter.ItemViewHolder, position: Int) {
         holder.onBind(position)
     }
 
@@ -29,30 +31,33 @@ class HourlyAdapter : RecyclerView.Adapter<HourlyAdapter.ItemViewHolder>() {
         return itemList.size
     }
 
-    fun addItem(items: HourlySet) {
+    fun addItem(items: DailySet) {
         itemList.add(items)
         notifyDataSetChanged()
     }
 
-    fun removeItem(position: Int) {
+    fun removeItem(position: Int){
         itemList.removeAt(position)
         notifyItemRemoved(position)
     }
 
     inner class ItemViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val hourlyTimeText = itemView.hourlyTimeText
-        val hourlyImage = itemView.hourlyImage
-        val hourlyTempText = itemView.hourlyTempText
+        val dailyDateText = itemView.dailyDateText
+        val dailyImage = itemView.dailyImage
+        val dailyMinMaxTempText = itemView.dailyMinMaxTempText
 
         fun onBind(position: Int) {
-            hourlyTimeText.text = itemList[position].time
+            dailyDateText.text = itemList[position].date
+
             Glide.with(context)
                 .load(itemList[position].imgUrl)
                 .diskCacheStrategy(DiskCacheStrategy.ALL)
-                //.apply(RequestOptions().format(DecodeFormat.PREFER_ARGB_8888))
-                .into(hourlyImage)
-            hourlyTempText.text = itemList[position].temp
+                .apply(RequestOptions().format(DecodeFormat.PREFER_ARGB_8888))
+                .into(dailyImage)
+
+            dailyMinMaxTempText.text = itemList[position].maxTemp + " / " + itemList[position].minTemp
         }
 
     }
+
 }
