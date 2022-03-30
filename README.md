@@ -4,7 +4,6 @@
 ![language](https://img.shields.io/badge/language-Kotlin-9cf)
 ![비동기처리](https://img.shields.io/badge/%EB%B9%84%EB%8F%99%EA%B8%B0%EC%B2%98%EB%A6%AC-CoRoutine-6054d1)
 ![network](https://img.shields.io/badge/network-Retrofit2-yellow)
-![database](https://img.shields.io/badge/database-Room-d9fff8)
 ![image](https://img.shields.io/badge/image-Glide-edfcd2)
 ## 위치 기반 날씨 어플리케이션 '날씨어때?'
 
@@ -70,5 +69,4 @@ WeatherApiService.kt : HTTP 요청을 수행하는 Call 메소드가 있는 API 
 - 사용 언어 : `Kotlin`
 - 비동기 처리 : `CoRoutine`
 - 네트워크 : `Retrofit2`
-- 데이터베이스 : `Room`
 - 이미지 처리 : `Glide`
