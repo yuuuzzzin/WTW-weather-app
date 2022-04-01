@@ -24,13 +24,12 @@
 - Retrofit2를 이용해 Weather API 날씨 정보 받아오기
 - 비동기 처리 작업으로 코루틴 적용
 - 날씨를 통해 현재, 시간별, 일별로 나누어 화면에 출력
-- 날씨 정보를 Room을 이용해 Database에 저장
 - Glide로 날씨별 이미지 로드
 
 ### 🔧 App Version
 --------------------------------------
 targetSdkVersion 30 / minSdkVersion 19
-
+<!-- 
 ### 📁 프로젝트 구조
 --------------------------------------
 ```
@@ -60,7 +59,7 @@ wtw_weather_app/
 │  ├─ HourlySet.kt : 시간별 날씨 recyclerview adapter에 추가할 시간별 날씨 data set
 MainActivity.kt : 비동기식으로 서버와 통신하도록 함
 SplashActivity.kt : splash 화면을 위한 액티비티
-WeatherApiService.kt : HTTP 요청을 수행하는 Call 메소드가 있는 API 인터페이스(APIService)
+WeatherApiService.kt : HTTP 요청을 수행하는 Call 메소드가 있는 API 인터페이스(APIService) -->
 ```
 
 ### 🛶 기술
