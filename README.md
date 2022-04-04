@@ -59,8 +59,8 @@ wtw_weather_app/
 │  ├─ HourlySet.kt : 시간별 날씨 recyclerview adapter에 추가할 시간별 날씨 data set
 MainActivity.kt : 비동기식으로 서버와 통신하도록 함
 SplashActivity.kt : splash 화면을 위한 액티비티
-WeatherApiService.kt : HTTP 요청을 수행하는 Call 메소드가 있는 API 인터페이스(APIService) -->
-```
+WeatherApiService.kt : HTTP 요청을 수행하는 Call 메소드가 있는 API 인터페이스(APIService) 
+-->
 
 ### 🛶 기술
 --------------------------------------
